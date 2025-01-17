@@ -1,13 +1,12 @@
 {
     "site_name": "个人博客",
-    "site_slogon": "",
+    "site_slogon": "随便写点什么的博客",
     "site_root_url": "/",
-    "site_domain": "my_name.github.io",
+    "site_domain": "www.devinaille.fun",
     "site_protocol": "https",
     "config_template_dir": "config",
     "route": {
         "docs": {
-            "/doc1/": "docs/doc1",
             "/oracle/": "docs/oracle"
         },
         "pages": {
