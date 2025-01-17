@@ -6,8 +6,12 @@
     "site_protocol": "https",
     "config_template_dir": "config",
     "route": {
+        "blog": {
+            "/blog/": "blog"
+        },
         "docs": {
-            "/oracle/": "docs/oracle"
+            "/oracle/": "docs/oracle",
+            "/linux/": "docs/linux"
         },
         "pages": {
             "/": "pages/index"
@@ -51,6 +55,11 @@
                     "main_color": "#4caf7d",
                     "second_color": "#0a7d43"
                 }
+            }
+        },
+        "teedoc-plugin-blog": {
+            "from": "pypi",
+            "config": {
             }
         }
     },

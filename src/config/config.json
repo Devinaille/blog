@@ -9,13 +9,18 @@
         "home_url": "/",
         "items": [
             {
-                "url": "/doc1/",
-                "label": "Doc1",
-                "position": "right"
+                "url": "/blog/",
+                "label": "博客",
+                "position": "left"
             },
             {
                 "url": "/oracle/",
                 "label": "Oracle",
+                "position": "left"
+            },
+            {
+                "url": "/linux/",
+                "label": "Linux",
                 "position": "left"
             }
 
