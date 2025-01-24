@@ -46,8 +46,8 @@
                         "target": "_blank"
                     },
                     {
-                        "label": "*公网安备**************号",
-                        "url": "https://beian.miit.gov.cn/#/Integrated/index",
+                        "label": "浙公网安备33010902004053号",
+                        "url": "https://beian.mps.gov.cn/#/query/webSearch?code=33010902004053",
                         "target": "_blank"
                     }
         ]
