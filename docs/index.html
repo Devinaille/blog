@@ -7,16 +7,35 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" type="text/css" href="css/blog.css">
 </head>
 <body>
   <div id="app"></div>
+  
   <script>
     window.$docsify = {
       name: '',
-      repo: ''
+      repo: '',
+      loadSidebar: true,
+      plugins: [
+    function pageFooter(hook, vm) {
+      var footer = [
+        '<hr/>',
+        '<footer>',
+        '<p style="width: 100%;height: 45px;display: block;line-height: 45px;text-align: center;"><a href="https://beian.miit.gov.cn" rel="noreferrer" target="_blank">浙ICP备2025148159号-1</a></p>',
+        '<p class="footer"><img src="asset/beian.png" width="20"></img><a href="https://beian.mps.gov.cn/#/query/webSearch?code=33010902004053" rel="noreferrer" target="_blank">浙公网安备33010902004053号</a></p>',
+        '</footer>',
+      ].join('');
+
+      hook.afterEach(function (html) {
+        return html + footer;
+      });
+    },
+  ],
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
 </body>
 </html>
