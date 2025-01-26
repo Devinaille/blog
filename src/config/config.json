@@ -45,11 +45,12 @@
                         "url": "https://beian.miit.gov.cn",
                         "target": "_blank"
                     },
-                    {
-                        "label": "浙公网安备33010902004053号",
-                        "url": "https://beian.mps.gov.cn/#/query/webSearch?code=33010902004053",
-                        "target": "_blank"
-                    }
+                    // {
+                    //     "label": "浙公网安备33010902004053号",
+                    //     "url": "https://beian.mps.gov.cn/#/query/webSearch?code=33010902004053",
+                    //     "target": "_blank"
+                    // }
+                
         ]
     }
 }
