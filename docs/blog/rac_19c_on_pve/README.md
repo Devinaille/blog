@@ -1,4 +1,4 @@
----
+<!-- ---
 
 title: 基于PVE虚拟环境的19C RAC安装
 keywords: oracle,rac,10c,pve,vm,虚拟机
@@ -7,8 +7,12 @@ tags: oracle,rac,10c,pve,vm,虚拟机
 desc: 在PVE环境里安装RAC集群
 date: 2025-01-16
 
----
+--- -->
 
+# 基于PVE虚拟环境的19C RAC安装
+> 日期：2025-01-06
+>
+> tags：oracle,rac,10c,pve,vm,虚拟机
 
 用PVE来搭建一套oracle 19c rac环境，并进行升级、迁移
 <!-- more -->

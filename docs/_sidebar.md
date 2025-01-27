@@ -1,4 +1,4 @@
 <!-- docs/_sidebar.md -->
 
-* [Home](/)
-* [Blog](/blog/README.md)
+* [网站主页](/)
+* [更新日志](/release/README.md)

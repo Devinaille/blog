@@ -1,3 +1,5 @@
-# Headline
-test for readme
-* [RAC 19C on PVE](rac_19c_on_pve.md)
+# 博客日记
+随手记录一些遇到问题或者做过的实验
+
+# 推荐博文
+* [基于PVE虚拟环境的19C RAC安装](./rac_19c_on_pve/README.md)
