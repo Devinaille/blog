@@ -14,7 +14,7 @@
 
 </head>
 <body>
-s  <div id="app"></div>
+  <div id="app"></div>
   
   <script>
     window.$docsify = {
@@ -27,6 +27,15 @@ s  <div id="app"></div>
       //   '/.*/_404.md': '/_404.md'
       // },
       relativePath: true,
+      // 字数统计
+      // count:{
+      //   countable:true,
+      //   float: 'left',
+      //   position: 'top',
+      //   fontsize:'0.9em',
+      //   color:'rgb(90,90,90)',
+      //   language:'chinese'
+      // },
       plugins: [
     function pageFooter(hook, vm) {
       var footer = [
@@ -41,6 +50,7 @@ s  <div id="app"></div>
         return html + footer;
       });
     },
+    
   ],
     }
   </script>
@@ -49,8 +59,17 @@ s  <div id="app"></div>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 
+  <!-- 搜索 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+
+  <!-- 图片放大 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+
+  <!-- 分页导航 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+  <!-- 字数统计 -->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 
 
 
